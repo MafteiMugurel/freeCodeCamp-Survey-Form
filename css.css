@@ -1,6 +1,42 @@
-#title {
+.container {
+    width: 80%;
+    margin: auto;
+    background: azure;
+}
+
+.box-1 {
+    text-align: center;
 
 }
-#description {
+
+.box-2 {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+
+.box-3 {
     
+    
+
+}
+
+.box-4 {
+    width: 90%;
+    margin: auto;
+    
+}
+.box-21, .box-22 {
+    display: flex;
+    flex-flow: column;
+   
+}
+.box-21 {
+    width: 50%;
+    text-align: right;
+}
+
+.box-22 {
+    margin-left: 5px;
 }
