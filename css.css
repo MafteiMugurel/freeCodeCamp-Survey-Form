@@ -1,12 +1,12 @@
 .container {
-    width: 80%;
+    width: 45%;
     margin: auto;
-    background: azure;
+    background: rgba(60, 100, 90, 0.500);
+    
 }
 
 .box-1 {
     text-align: center;
-
 }
 
 .box-2 {
@@ -17,20 +17,19 @@
 
 
 .box-3 {
-    
-    
-
+    display: flex;
+    flex-flow: row;
+    width: 100%;
 }
 
 .box-4 {
-    width: 90%;
-    margin: auto;
     
+    margin: auto;
+    text-align: center;
 }
 .box-21, .box-22 {
     display: flex;
     flex-flow: column;
-   
 }
 .box-21 {
     width: 50%;
@@ -39,4 +38,34 @@
 
 .box-22 {
     margin-left: 5px;
+}
+
+.bux-31, .box-32{
+    display: flex;
+    flex-flow: column;  
+}
+
+.box-31 {   
+    width: 50%;
+    text-align: right;
+}
+
+.box-32 {
+    margin-left: 5px;
+}
+body {
+    line-height: 1.5;
+    background-image: url(Background.jpg);
+
+}
+#textarea {
+    width: 45%; 
+     
+    
+
+}
+#submit {
+    width: 150px;   
+    height: 25px;
+
 }
