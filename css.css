@@ -1,12 +1,29 @@
 .container {
-    width: 45%;
+    display: flex;
+    flex-flow: row;
+    width: 80vw;
     margin: auto;
-    background: rgba(60, 100, 90, 0.500);
-    
+    background-color: #d8bd8a;
+}
+
+.container-1 {
+    position: relative;
+    text-align: center;
+    width: 50%;
+
+}
+
+.container-2 {
+    height: 70vh;
+    width: 50%;
+    margin: auto;
 }
 
 .box-1 {
-    text-align: center;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+
 }
 
 .box-2 {
@@ -23,49 +40,67 @@
 }
 
 .box-4 {
-    
+
     margin: auto;
     text-align: center;
 }
-.box-21, .box-22 {
+
+.box-21,
+.box-22 {
     display: flex;
     flex-flow: column;
+
 }
+
 .box-21 {
     width: 50%;
     text-align: right;
+    margin-right: 20px;
+    margin-left: -60px;
 }
 
 .box-22 {
     margin-left: 5px;
 }
 
-.bux-31, .box-32{
+.bux-31,
+.box-32 {
     display: flex;
-    flex-flow: column;  
+    flex-flow: column;
+
 }
 
-.box-31 {   
+.box-31 {
     width: 50%;
     text-align: right;
+    margin-right: 20px;
+    margin-left: -60px;
+
 }
 
 .box-32 {
     margin-left: 5px;
 }
+
 body {
-    line-height: 1.5;
-    background-image: url(Background.jpg);
+    line-height: 1.6;
 
 }
+
 #textarea {
-    width: 45%; 
-     
-    
-
+    height: 60px;
+    width: 200px;
+    max-width: 300px !important;
+    max-height: 200px !important;
 }
-#submit {
-    width: 150px;   
-    height: 25px;
 
+#submit {
+    width: 100px;
+    padding: 15px;
+}
+
+.image {
+    max-width: -webkit-fill-available;
+    transform: scaleX(-1);
+    height: 80vw;
 }
