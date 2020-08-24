@@ -92,15 +92,19 @@ body {
     width: 200px;
     max-width: 300px !important;
     max-height: 200px !important;
+    border-radius: 15px;
 }
+
 
 #submit {
     width: 100px;
     padding: 15px;
+    border-radius: 15px;
+
 }
 
 .image {
     max-width: -webkit-fill-available;
     transform: scaleX(-1);
-    height: 80vw;
+    height: 60vw;
 }
